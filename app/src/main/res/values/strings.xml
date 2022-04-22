@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CustomJewelryAndClothingStore</string>
+    <string name="app_name">CustomJewelryAndClothesStore</string>
     <string name="menu_title_clothes">Одежда</string>
     <string name="menu_title_shoppers">Шопперы</string>
     <string name="menu_title_jewelry">Бижутерия</string>

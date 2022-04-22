@@ -1,8 +1,8 @@
-package com.example.customjewelryandclothingstore.data.repository
+package com.example.customjewelryandclothesstore.data.repository
 
-import com.example.customjewelryandclothingstore.data.Clothes
-import com.example.customjewelryandclothingstore.data.Jewelry
-import com.example.customjewelryandclothingstore.data.Shoppers
+import com.example.customjewelryandclothesstore.data.Clothes
+import com.example.customjewelryandclothesstore.data.Jewelry
+import com.example.customjewelryandclothesstore.data.Shoppers
 
 object Repository {
 

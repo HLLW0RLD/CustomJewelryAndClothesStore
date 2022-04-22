@@ -1,4 +1,4 @@
-package com.example.customjewelryandclothingstore
+package com.example.customjewelryandclothesstore
 
 import org.junit.Test
 

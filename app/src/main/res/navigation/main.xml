@@ -6,22 +6,22 @@
 
     <fragment
         android:id="@+id/menuAboutUs"
-        android:name="com.example.customjewelryandclothingstore.view.InfoFragment"
+        android:name="com.example.customjewelryandclothesstore.view.InfoFragment"
         android:label="InfoFragment"/>
     <fragment
         android:id="@+id/menuClothes"
-        android:name="com.example.customjewelryandclothingstore.view.ClothesFragment"
+        android:name="com.example.customjewelryandclothesstore.view.ClothesFragment"
         android:label="ClothesFragment" />
     <fragment
         android:id="@+id/menuShoppers"
-        android:name="com.example.customjewelryandclothingstore.view.ShoppersFragment"
+        android:name="com.example.customjewelryandclothesstore.view.ShoppersFragment"
         android:label="ShoppersFragment" />
     <fragment
         android:id="@+id/menuJewelry"
-        android:name="com.example.customjewelryandclothingstore.view.JewelryFragment"
+        android:name="com.example.customjewelryandclothesstore.view.JewelryFragment"
         android:label="JewelryFragment" />
     <fragment
         android:id="@+id/menuCustom"
-        android:name="com.example.customjewelryandclothingstore.view.CustomFragment"
+        android:name="com.example.customjewelryandclothesstore.view.CustomFragment"
         android:label="CustomFragment" />
 </navigation>

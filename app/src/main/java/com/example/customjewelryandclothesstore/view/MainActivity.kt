@@ -1,13 +1,9 @@
-package com.example.customjewelryandclothingstore.view
+package com.example.customjewelryandclothesstore.view
 
-import android.app.Activity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
-import androidx.navigation.NavController
-import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.setupWithNavController
-import com.example.customjewelryandclothingstore.R
+import com.example.customjewelryandclothesstore.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 

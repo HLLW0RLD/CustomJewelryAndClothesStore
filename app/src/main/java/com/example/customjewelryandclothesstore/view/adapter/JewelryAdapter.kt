@@ -1,4 +1,4 @@
-package com.example.customjewelryandclothingstore.view.adapter
+package com.example.customjewelryandclothesstore.view.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,17 +6,15 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.customjewelryandclothingstore.R
-import com.example.customjewelryandclothingstore.data.Clothes
-import com.example.customjewelryandclothingstore.data.Jewelry
-import com.example.customjewelryandclothingstore.data.Shoppers
+import com.example.customjewelryandclothesstore.R
+import com.example.customjewelryandclothesstore.data.Jewelry
 
-class ClothesAdapter : RecyclerView.Adapter<ClothesAdapter.MainViewHolder>() {
+class JewelryAdapter : RecyclerView.Adapter<JewelryAdapter.MainViewHolder>() {
 
-    private var clothes : MutableList<Clothes> = mutableListOf()
+    private var jewelry : MutableList<Jewelry> = mutableListOf()
 
-    fun setClothes(products : MutableList<Clothes>){
-        this.clothes = products
+    fun setJewelry(products : MutableList<Jewelry>){
+        this.jewelry = products
         notifyDataSetChanged()
     }
 
@@ -28,7 +26,7 @@ class ClothesAdapter : RecyclerView.Adapter<ClothesAdapter.MainViewHolder>() {
 
         private val price = itemView.findViewById<TextView>(R.id.priceViewList)
 
-        fun bind(product: Clothes) {
+        fun bind(product: Jewelry) {
 //            Glide
 //                .with(itemView)
 //                .load(product.image)
@@ -47,10 +45,10 @@ class ClothesAdapter : RecyclerView.Adapter<ClothesAdapter.MainViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: MainViewHolder, position: Int) {
-        holder.bind(clothes[position])
+        holder.bind(jewelry[position])
     }
 
     override fun getItemCount(): Int {
-        return clothes.size
+        return jewelry.size
     }
 }
