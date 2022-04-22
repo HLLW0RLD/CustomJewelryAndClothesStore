@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuClothes"
+        android:title="@string/menu_title_clothes"/>
+
+    <item
+        android:id="@+id/menuShoppers"
+        android:title="@string/menu_title_shoppers"/>
+
+    <item
+        android:title="@string/menu_title_jewelry"
+        android:id="@+id/menuJewelry"/>
+
+    <item
+        android:id="@+id/menuCustom"
+        android:title="@string/menu_title_custom">
+        <menu>
+            <item
+                android:id="@+id/menuOrder"
+                android:title="@string/menu_title_order">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuContacts"
+        android:title="@string/menu_title_contacts">
+        <menu>
+            <item
+                android:id="@+id/menuTelegram"
+                android:icon="@drawable/telegram"
+                android:title="@string/menu_title_telegram" />
+
+            <item
+                android:id="@+id/menuWhatsApp"
+                android:title="@string/menu_title_whatsapp"
+                android:icon="@drawable/wa" />
+
+            <item
+                android:id="@+id/menuAboutUs"
+                android:title="@string/menu_title_about_us"/>
+        </menu>
+    </item>
+
+</menu>

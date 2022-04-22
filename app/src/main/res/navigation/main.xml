@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    app:startDestination="@id/menuAboutUs">
+
+    <fragment
+        android:id="@+id/menuAboutUs"
+        android:name="com.example.customjewelryandclothingstore.view.InfoFragment"
+        android:label="InfoFragment"/>
+    <fragment
+        android:id="@+id/menuClothes"
+        android:name="com.example.customjewelryandclothingstore.view.ClothesFragment"
+        android:label="ClothesFragment" />
+    <fragment
+        android:id="@+id/menuShoppers"
+        android:name="com.example.customjewelryandclothingstore.view.ShoppersFragment"
+        android:label="ShoppersFragment" />
+    <fragment
+        android:id="@+id/menuJewelry"
+        android:name="com.example.customjewelryandclothingstore.view.JewelryFragment"
+        android:label="JewelryFragment" />
+    <fragment
+        android:id="@+id/menuCustom"
+        android:name="com.example.customjewelryandclothingstore.view.CustomFragment"
+        android:label="CustomFragment" />
+</navigation>

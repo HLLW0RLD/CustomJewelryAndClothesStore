@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavigationDrawer" parent="Theme.MaterialComponents">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="InfoToolbar" parent="Theme.MaterialComponents">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/main_blue</item>
+    </style>
+
+    <style name="ButtonFavoritesIcon" parent="Theme.MaterialComponents">
+        <item name="android:layout_width">@dimen/button_favorites_size</item>
+        <item name="android:layout_height">@dimen/button_favorites_size</item>
+        <item name="android:layout_margin">@dimen/button_favorites_margin</item>
+        <item name="android:background">@drawable/image_button_background</item>
+        <item name="android:src">@drawable/yellow_heart</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="ToolbarMenuIcon" parent="Theme.MaterialComponents">
+        <item name="android:layout_width">@dimen/menu_icon_size</item>
+        <item name="android:layout_height">@dimen/menu_icon_size</item>
+        <item name="android:src">@drawable/ic_sidemenu</item>
+        <item name="tint">@color/main_pink</item>
+    </style>
+
+    <style name="FragmentContainer" parent="Theme.MaterialComponents">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="NavigationView" parent="Theme.MaterialComponents">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:background">@color/white</item>
+        <item name="itemTextColor">@color/main_pink</item>
+        <item name="subheaderColor">@color/menu_gray</item>
+    </style>
+
+    <style name="FragmentStyle" parent="Theme.MaterialComponents">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RecyclerView" parent="Theme.MaterialComponents">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+    </style>
+
+    <style name="ItemCard" parent="Theme.MaterialComponents">
+        <item name="android:layout_height">@dimen/card_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/card_margin</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ImageList" parent="Theme.MaterialComponents">
+        <item name="android:layout_height">@dimen/image_card_height</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="TextList" parent="Theme.MaterialComponents">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_card_size</item>
+    </style>
+
+    <style name="PriceList" parent="Theme.MaterialComponents">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:textColor">@color/main_pink</item>
+        <item name="android:textSize">@dimen/price_card_size</item>
+    </style>
+
+    <style name="LineView" parent="Theme.MaterialComponents">
+        <item name="android:layout_height">@dimen/line_view_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/main_yellow</item>
+    </style>
+
+    <style name="ChipsGroupView" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="CustomChipsView" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="chipBackgroundColor">@color/chip_background_color</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+    </style>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/chips_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chips_group"
+            style="@style/ChipsGroupView"
+            app:singleSelection="true"
+            app:selectionRequired="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/product_list">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_all"
+                style="@style/CustomChipsView"
+                android:checked="true"
+                android:text="@string/chip_all" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_beads"
+                style="@style/CustomChipsView"
+                android:checked="true"
+                android:text="@string/chip_beads" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_bracelets"
+                style="@style/CustomChipsView"
+                android:checked="true"
+                android:text="@string/chip_bracelets" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_earrings"
+                style="@style/CustomChipsView"
+                android:checked="true"
+                android:text="@string/chip_earrings" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_brooches"
+                style="@style/CustomChipsView"
+                android:checked="true"
+                android:text="@string/chip_brooches" />
+        </com.google.android.material.chip.ChipGroup>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/product_list"
+        style="@style/RecyclerView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chips_toolbar"
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/item_list" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
